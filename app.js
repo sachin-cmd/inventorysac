@@ -8,8 +8,6 @@ const bodyParser = require('body-parser');
 const graphqlHttp = require('express-graphql');
 const mongoose = require('mongoose');
 
-const jwt = require('jsonwebtoken')
-
 const User= require('./models/user')
 
 const app = new  express();
